@@ -1,49 +1,102 @@
-# Ananya Hegde — Portfolio
+# 🌐 Ananya Hegde — Portfolio
 
-A single-page portfolio site, built with plain HTML/CSS/JS (no build step, no dependencies to install), ready to host on GitHub Pages for free.
+**🔗 Live Portfolio:** https://ananyahegde058.github.io/devops_lab1/A0_Portfolio/
 
-**Files:**
-- `index.html` — page structure & content
-- `styles.css` — the "blueprint" visual design (built around your published dumbbell network topology)
-- `script.js` — the animated packet diagram in the hero, plus scroll reveals
+Welcome to my personal portfolio and DevOps learning repository.
 
-## Go live on GitHub Pages (takes ~5 minutes)
+This repository contains my portfolio, DevOps lab assignments, projects, and related work. Everything is organized into separate folders so I can continue adding assignments and projects to the same repository.
 
-1. **Create a new repository** on GitHub.
-   - Go to [github.com/new](https://github.com/new)
-   - Name it whatever you like. If you want it at `https://ananyahegde058.github.io` directly, name the repo exactly `ananyahegde058.github.io`. Any other name works too — it'll just live at `https://ananyahegde058.github.io/<repo-name>`.
-   - Set it to **Public**, and don't initialize with a README (you already have one).
+## 📁 Repository Structure
 
-2. **Upload these files.**
-   - Easiest way: on the repo page, click **Add file → Upload files**, then drag in `index.html`, `styles.css`, `script.js`, and `README.md`. Commit directly to the `main` branch.
-   - Or, from your computer, using git:
-     ```bash
-     git init
-     git add index.html styles.css script.js README.md
-     git commit -m "Initial portfolio"
-     git branch -M main
-     git remote add origin https://github.com/<your-username>/<repo-name>.git
-     git push -u origin main
-     ```
+```text
+devops_lab1/
+│
+├── A0_Portfolio/
+│   ├── index.html
+│   ├── styles.css
+│   ├── script.js
+│   └── README.md
+│
+├── A1_Assignment/
+│   └── ...
+│
+├── A2_Assignment/
+│   └── ...
+│
+├── A3_Assignment/
+│   └── ...
+│
+└── README.md
+```
 
-3. **Turn on GitHub Pages.**
-   - In the repo, go to **Settings → Pages**.
-   - Under "Build and deployment", set **Source** to `Deploy from a branch`.
-   - Set **Branch** to `main` and folder to `/ (root)`. Click **Save**.
+## 🎨 A0 — Portfolio
 
-4. **Visit your site.**
-   - GitHub will show a link at the top of that same Pages settings screen once it's built (usually within a minute or two) — something like `https://<your-username>.github.io/<repo-name>/`.
-   - Re-uploading a file and committing automatically redeploys the site — no extra steps needed.
+The `A0_Portfolio` folder contains my personal portfolio website.
 
-## Making changes later
+It is built using:
 
-Everything is plain text, so you can edit directly on GitHub (open a file → pencil icon → edit → commit) or clone the repo locally and edit in any code editor. There's no build/compile step — saving the file is the whole deploy.
+* **HTML5** — page structure and content
+* **CSS3** — styling and responsive design
+* **JavaScript** — animations and interactive elements
 
-Common tweaks:
-- **Text/content** — edit the relevant section in `index.html`.
-- **Colors** — edit the `:root` variables at the top of `styles.css` (e.g. `--accent` is the copper/rust highlight color).
-- **Add a project** — copy one `<article class="card">…</article>` block under `#work` in `index.html` and edit its contents.
+No external build tools or dependencies are required.
 
-## Optional: custom domain
+## 🚀 Deployment
 
-If you buy a domain later, add a `CNAME` file with just the domain name in it to the repo root, then point your domain's DNS to GitHub Pages per [GitHub's custom domain guide](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+The portfolio is hosted using **GitHub Pages** from the `main` branch.
+
+**Repository:** `ananyahegde058/devops_lab1`
+
+Whenever changes are pushed to the `main` branch, GitHub Pages automatically updates the deployed website.
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+* Git
+* GitHub
+* GitHub Pages
+
+## 📚 Assignments & Projects
+
+This repository will be continuously updated with my DevOps lab assignments, experiments, and projects.
+
+Each assignment will be maintained in its own folder to keep the repository organized.
+
+| Folder          | Content                       |
+| --------------- | ----------------------------- |
+| `A0_Portfolio`  | Personal portfolio            |
+| `A1_Assignment` | Assignment 1                  |
+| `A2_Assignment` | Assignment 2                  |
+| `A3_Assignment` | Assignment 3                  |
+| `...`           | More assignments and projects |
+
+## 🔄 Updating the Repository
+
+After completing an assignment or making changes:
+
+```bash
+git add .
+git commit -m "Added Assignment 1"
+git push
+```
+
+The same repository will be used throughout the DevOps labs, keeping all assignments and projects together in one place.
+
+## 👩‍💻 About Me
+
+**Ananya Hegde**
+
+Engineering student interested in:
+
+* Backend Development
+* Computer Networks
+* Cloud Computing
+* DevOps
+* Machine Learning
+* Full-Stack Development
+
+---
+
+⭐ This repository serves as a continuous record of my learning, assignments, projects, and technical work.
